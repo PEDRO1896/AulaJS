@@ -1,8 +1,6 @@
 document.write("<h1>Aula 02 - Exercício 2 </h1>")
 
-var tfahrenheit = prompt("Digite a temperatura em Farenheit");
+    var tfarenheit = prompt("Digite a temperatura em farenheit")
 
-var tcelsius = ((Number(tfahrenheit) - 32) * 5) / 9;
 
-document.write("A temperatura em celsius é: " + tcelsius);
 
