@@ -1,11 +1,11 @@
 function Exemplo6()
 {
 
-    letnumero = Number(document.getElementById("numero").value);
+    let lado = Number(document.getElementById("lado").value);
 
-    letresultado; 
+    let resultado; 
     
-   resultado = (lado* lado);
+   resultado = (lado*lado);
 
-    document.getElementById("resultado").innerHTML="<p>O tamanho do lado da area do quadrado é de: " + parcela +"</p>";
+    document.getElementById("resultado").innerHTML = "<p> O tamanho do lado da area do quadrado é de: " + resultado +"</p>";
 }
